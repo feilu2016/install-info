@@ -1,0 +1,12 @@
+# mysql
+    yum install mysql-server    mysql-server-8.0.21-1.module_el8.2.0+493+63b41e36.x86_64
+    systemctl status mysqld.service
+    service mysql restart
+    cat /etc/my.cnf
+    mysqladmin -u root password 'yeelion'
+    firewall-cmd --zone=public --add-port=3306/tcp --permanent;
+    service iptables stop;
+    mysql -h47.92.97.76 -uroot -pyeelion
+    # https://www.jianshu.com/p/276d59cbc529
+    # mysql -h47.92.97.76 -uhive -phive
+

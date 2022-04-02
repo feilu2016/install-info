@@ -1,0 +1,12 @@
+wget https://mirrors.tuna.tsinghua.edu.cn/apache/tomcat/tomcat-8/v8.5.64/bin/apache-tomcat-8.5.64.tar.gz
+cd /opt
+ln -s /opt/soft/apache-tomcat /usr/local/tomcat
+
+https://mirrors.tuna.tsinghua.edu.cn/jenkins/redhat/jenkins-2.245-1.1.noarch.rpm
+
+rpm -ivh jenkins-2.60-1.1.noarch.rpm
+
+/etc/init.d/jenkins start
+# https://blog.csdn.net/nunchakushuang/article/details/77118621
+netstat -tnlp | grep 8080
+# admin  admin123
