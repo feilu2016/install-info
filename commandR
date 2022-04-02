@@ -1,0 +1,7 @@
+# vim ./vimrc
+    set ts=4
+    set expandtab
+    set autoindent
+# yum install lrzsz
+# systemctl [command] [unit]
+    systemctl status|start|stop|restart|unmask iptables
